@@ -2,8 +2,8 @@ $rt-namespace: 'Toastify';
 $rt-mobile: 'only screen and (max-width : 480px)' !default;
 
 :root {
-  --toastify-color-light: #fff;
-  --toastify-color-dark: #121212;
+  --toastify-color-light: var(--toast-color);
+  --toastify-color-dark: var(--toast-color);
   --toastify-color-info: #3498db;
   --toastify-color-success: #07bc0c;
   --toastify-color-warning: #f1c40f;
@@ -22,8 +22,8 @@ $rt-mobile: 'only screen and (max-width : 480px)' !default;
   --toastify-font-family: sans-serif;
   --toastify-z-index: 9999;
 
-  --toastify-text-color-light: #757575;
-  --toastify-text-color-dark: #fff;
+  --toastify-text-color-light: var(--text-color);
+  --toastify-text-color-dark: var(--text-color);
 
   //Used only for colored theme
   --toastify-text-color-info: #fff;
